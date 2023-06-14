@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+}
+
+.main{
+    background-color: blue;
+}
+
+.navbar{
+    width:90%;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.icon img{
+    height: 8vh;
+    width: 8vh;
+    
+    padding: 6px 20px;
+}
+ul{
+    padding-top: 27px;
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+section{
+    height: 75vh;
+    width: 100%;
+}
+
+.title{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+
+.boxess{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boxx1{
+    background-image: url(../images/1.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 41vh ;
+    margin-left: 90px;
+    transition: 0.5s;
+}
+
+.boxx1 p{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 39vh ;
+    font-size: 25px;
+    color: white;
+}
+
+.boxx1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.boxx2{
+    background-image: url(../images/2.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 41vh ;
+    margin-left: 20px;
+}
+
+.boxx2 p{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 39vh ;
+    font-size: 25px;
+    color: white;
+}
+
+.boxx2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.boxx3{
+    background-image: url(../images/3.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 41vh ;
+    margin-left: 20px;
+}
+
+.boxx3 p{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 39vh ;
+    font-size: 25px;
+    color: white;
+}
+
+.boxx3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.boxx4{
+    background-image: url(../images/4.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 41vh ;
+    margin-left: 20px;
+}
+
+.boxx4 p{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 39vh ;
+    font-size: 25px;
+    color: white;
+}
+
+.boxx4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+    height: 75vh;
+    width: 100%;
+}
+
+.name{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+
+.boxesss{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boxxx1{
+    width: 33.33%;
+}
+
+.boxxxx1{
+    background-image: url(../images/5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 41vh ;
+    margin-left: 90px;
+    transition: 0.5s;
+}
+
+.boxxxx1 p{
+    color: white;
+}
+
+.boxxxx2 p{
+    margin-left: 90px;
+}
+
+.boxxx1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.boxxx2{
+    width: 33.33%;
+}
+
+.boxxxx3{
+    background-image: url(../images/6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 41vh ;
+    margin-left: 70px;
+    transition: 0.5s;
+}
+
+.boxxxx3 p{
+    color: white;
+}
+
+.boxxxx4 p{
+    margin-left: 100px;
+}
+
+.boxxx2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.boxxx3{
+    width: 33.33%;
+}
+
+.boxxxx5{
+    background-image: url(../images/7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 41vh ;
+    margin-left: 70px;
+    transition: 0.5s;
+}
+
+.boxxxx5 p{
+    color: white;
+}
+
+.boxxxx6 p{
+    margin-left: 100px;
+}
+
+.boxxx3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info{
+    height: 35vh;
+    width: 100%;
+    background-color: wheat;
+}
+
+.boxessss{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box111{
+    width: 20%;
+}
+
+.box111 h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.box111 a{
+    font-size: 14px;
+    padding-left: 130px; 
+    text-decoration: none;
+    color: black;
+}
+
+.box111 a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.box222{
+    width: 20%;
+}
+
+.box222 h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.box222 a{
+    font-size: 14px;
+    padding-left: 130px; 
+    text-decoration: none;
+    color: black;
+}
+
+.box222 a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.box333{
+    width: 20%;
+}
+
+.box333 h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.box333 a{
+    font-size: 14px;
+    padding-left: 130px; 
+    text-decoration: none;
+    color: black;
+}
+
+.box333 a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.box444{
+    width: 20%;
+}
+
+.box444 h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.box444 a{
+    font-size: 14px;
+    padding-left: 115px; 
+    text-decoration: none;
+    color: black;
+}
+
+.box444 a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.box555{
+    width: 20%;
+}
+
+.box555 h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.box555 a{
+    font-size: 14px;
+    padding-left: 130px; 
+    text-decoration: none;
+    color: black;
+}
+
+.box555 a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: lightslategray;
+    height: 13vh;
+    
+
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box1{
+    width: 16.66%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box11 img{
+    height: 10vh;
+    width: 15vh;
+    padding-top: 12px; 
+    padding-left: 14px;
+}
+
+.box22 img{
+    height: 10vh;
+    width: 15vh;
+    padding-top: 12px; 
+}
+
+#verticle-line{
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    align-self: center;
+}
+
+.box2{
+    width: 16.66%;
+}
+
+.box2 h1{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 14px;
+    text-align: center;
+}
+
+.box2 p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#verticle-line{
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    align-self: center;
+}
+
+.box3{
+    width: 16.66%;
+}
+
+.box3 h1{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 14px;
+    text-align: center;
+}
+
+.box3 p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#verticle-line{
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    align-self: center;
+}
+
+.box4{
+    width: 16.66%;
+}
+
+.box4 h1{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 14px;
+    text-align: center;
+}
+
+.box4 p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#verticle-line{
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    align-self: center;
+}
+
+.box5{
+    width: 16.66%;
+}
+
+.box5 h1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 14px;
+    text-align: center;
+}
+
+.box5 p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#verticle-line{
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    align-self: center;
+}
+
+.box6{
+    width: 14%;
+}
+
+.box6 h1{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 14px;
+    text-align: center;
+}
+
+.box6 i{
+    color: black;
+}
+
+.box6 p{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.fa-facebook:hover{
+    color: rgb(34, 61, 212);
+    transition: 0.2s;  
+}
+
+.fa-twitter:hover{
+    color: rgb(34, 61, 212);
+    transition: 0.2s;  
+}
+
+.fa-youtube:hover{
+    color: rgb(233, 24, 24);
+    transition: 0.2s;  
+}
